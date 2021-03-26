@@ -57,6 +57,7 @@ div.order-summary {
     .order-summary > a {
         display: flex;
         margin-bottom: 20px;
+        color: var(--primary-color);
     }
 }
 
@@ -68,7 +69,7 @@ div.order-summary {
     .order-summary h2 {
         text-align: center;
     }
-    
+
     .order-list-card, .order-card {
         margin-left: auto;
         margin-right: auto;
