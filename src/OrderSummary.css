@@ -52,18 +52,23 @@ div.order-summary {
 .order-card .total-price {
     font-weight: bold;
 }
+
+@media (max-width: 1199.98px) {
+    .order-summary > a {
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+
 @media (max-width: 991.98px) {
     div.order-summary {
         width: 100%;
     }
 
-    .order-summary > a {
-        display: flex;
-        margin-bottom: 20px;
-    }
     .order-summary h2 {
         text-align: center;
     }
+    
     .order-list-card, .order-card {
         margin-left: auto;
         margin-right: auto;
